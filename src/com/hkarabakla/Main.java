@@ -29,7 +29,7 @@ public class Main {
     }
 
     private static void checkBrackets(final String input, final boolean printDebugLog) {
-        HashMap<Character, Character> brackets = new HashMap<>(6);
+        HashMap<Character, Character> brackets = new HashMap<>(3);
         brackets.put(')', '(');
         brackets.put('}', '{');
         brackets.put(']', '[');
